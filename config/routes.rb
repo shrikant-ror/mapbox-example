@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+
+  root 'geomap#index'
+  
+  resources :geomap do
+    get 'mapbox' => 'geomap#index', as: :mapbox
+    collection do
+      get 'collect_res'  
+    end
+  end
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

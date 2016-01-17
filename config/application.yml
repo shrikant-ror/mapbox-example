@@ -1,0 +1,2 @@
+BASE_URL: "https://api.mapbox.com/geocoding/v5/mapbox.places"
+TOKEN: "pk.eyJ1Ijoic2hyaWthbnQxNzEyIiwiYSI6ImNpamZmZWFuYjAwMmh0aG01Nmc0eTN1YXMifQ.QoRy6gmX07mtZ8cwiRue-w"

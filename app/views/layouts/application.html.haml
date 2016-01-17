@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title MapboxExample
+    %script{:src => "https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.js"}
+    %link{:href => "https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.css", :rel => "stylesheet"}/
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    = yield

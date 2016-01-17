@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'httparty'
+gem 'figaro'
+gem "haml-rails", "~> 0.9"
 
 group :development, :test do
   gem 'byebug'

@@ -17,12 +17,11 @@
 //= require_tree .
 
 $(document).on("ready", function() {
-
 	mapboxgl.accessToken = 'pk.eyJ1Ijoic2hyaWthbnQxNzEyIiwiYSI6ImNpamZmZWFuYjAwMmh0aG01Nmc0eTN1YXMifQ.QoRy6gmX07mtZ8cwiRue-w';
 	map = new mapboxgl.Map({
 	    container: 'map',
 	    style: 'mapbox://styles/mapbox/streets-v8',
-	    center: [73.937252, 18.551563],
+	    center: [73.937252, 18.551563], // deafult set to pune
 	    zoom: 9
 	});
 	
@@ -31,7 +30,6 @@ $(document).on("ready", function() {
 	});
 		
 });
-
 
 function getLocationDetails() {
 	var address = $("#location").val();

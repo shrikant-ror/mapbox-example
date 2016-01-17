@@ -37,3 +37,7 @@ bower.json
     Status API Training Shop Blog About Pricing 
 
 
+
+# Ignore application configuration
+# need to commit for the review
+#/config/application.yml

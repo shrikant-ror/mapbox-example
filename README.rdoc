@@ -1,11 +1,5 @@
-# Problem Statement
- Create a rails application in which draw a map using Mapbox (https://www.mapbox.com/) and add a custom search input box to it.
- 
-# Solution and implementation 
-We have used mapbox CDN for including mapbox in our project. We have used following functions for the implementation 
+# Sample project for the mapbox integration
 
-- mapboxgl.Map (Used to initializes and draw the map)
-- map.flyTo (Used to fly to another location)
 
 ### Version
 - Ruby 2.2.4
